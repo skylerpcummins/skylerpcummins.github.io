@@ -132,7 +132,7 @@ StarJumpr.Play.prototype = {
 
   starUpdateHelper: function() {
     var determineCreateStar = Math.random();
-    if (determineCreateStar < 0.002) { this.createSingleStar() }
+    if (determineCreateStar < 0.005) { this.createSingleStar() }
   },
 
   //player creation stuff
@@ -235,7 +235,7 @@ StarJumpr.Play.prototype = {
 
   createSingleStar: function() {
   	var star = this.stars.create(
-      Math.random() * (game.world.width),
+      Math.random() * (this.world.width),
       this.platformYMin - 50,
       'star'
     );
