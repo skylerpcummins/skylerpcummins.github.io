@@ -1,7 +1,7 @@
-var PapiJump = function() {};
-PapiJump.Play = function() {};
+var StarJumpr = function() {};
+StarJumpr.Play = function() {};
 
-PapiJump.Play.prototype = {
+StarJumpr.Play.prototype = {
 
   //preload stuff
   preload: function() {
