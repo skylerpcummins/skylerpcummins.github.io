@@ -59,7 +59,7 @@ StarJumpr.Play.prototype = {
 
   gameComponentsHelper: function() {
     this.scoreText = this.add.text(
-      16, 16, 'score: 0',
+      16, 16, 'Score: 0',
       { fontSize: '32px', fill: '#000' }
     );
     this.createPlatforms();
