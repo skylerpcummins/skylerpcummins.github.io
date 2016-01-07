@@ -262,5 +262,5 @@ StarJumpr.Play.prototype = {
 }
 
 var game = new Phaser.Game(400, 550, Phaser.CANVAS, '');
-game.state.add('Play', PapiJump.Play);
+game.state.add('Play', StarJumpr.Play);
 game.state.start('Play');
