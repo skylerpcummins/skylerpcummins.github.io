@@ -236,7 +236,7 @@ StarJumpr.Play.prototype = {
   createSingleStar: function() {
   	var star = this.stars.create(
       Math.random() * (game.world.width),
-      game.platformYMin - 50,
+      this.platformYMin - 50,
       'star'
     );
   	star.body.gravity.y = Math.random() * 100 + 6;
