@@ -1,0 +1,19 @@
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 32;
+}
+
+.game-description {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 00;
+  font-size: 24;
+  margin-bottom: 10px;
+}
+
+.game-container {
+}
+
+.game-description-container {
+  text-align: center;
+}
